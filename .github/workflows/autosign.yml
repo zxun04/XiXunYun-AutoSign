@@ -27,15 +27,15 @@ jobs:
 
       - name: Run main.py
         env:
-          SCHOOL_ID: ${{ secrets.SCHOOL_ID }}
-          ACCOUNT: ${{ secrets.ACCOUNT }}
-          PASSWORD: ${{ secrets.PASSWORD }}
-          LONGITUDE: ${{ secrets.LONGITUDE }}
-          LATITUDE: ${{ secrets.LATITUDE }}
-          ADDRESS_NAME: ${{ secrets.ADDRESS_NAME }}
-          ADDRESS: ${{ secrets.ADDRESS }}
-          PROVINCE: ${{ secrets.PROVINCE }}
-          CITY: ${{ secrets.CITY }}
-          PUSHPLUS_SET: ${{ secrets.PUSHPLUS_SET }}
-          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          SCHOOL_ID: ${{绵阳城市学院}}
+          ACCOUNT: ${{ 2022600237}}
+          PASSWORD: ${{ Yjf3212560. }}
+          LONGITUDE: ${{ 104.732689 }}
+          LATITUDE: ${{ 29.313337 }}
+          ADDRESS_NAME: ${{顺水农业投资开发有限公司}}
+          ADDRESS: ${{ 四川省自贡市自流井区 }}
+          PROVINCE: ${{ 四川省 }}
+          CITY: ${{ 自贡市 }}
+          PUSHPLUS_SET: ${{ 2 }}
+          PUSHPLUS_TOKEN: ${{ 2 }}
         run: python main.py
